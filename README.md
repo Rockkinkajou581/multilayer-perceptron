@@ -1,6 +1,6 @@
 # MLP: Multilayer Perceptron
 
-A built from scratch python multilayer perceptron for classification. Achieves 96-100% accuracy on skylearn datasets.
+A built from scratch python multilayer perceptron for classification, using SGD. Achieves 96-100% accuracy on skylearn datasets.
 
 ## How it works
 
