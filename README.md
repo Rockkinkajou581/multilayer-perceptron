@@ -14,7 +14,7 @@ The data is split into training and validation then formed into random batches i
 | [`network.py`](network.py) | Contains the central `NueralNetwork` class with the `gradient_descent`, `feed_forward`, `back_prop`, and  functions to evaluate the performance of the network|
 | [`train.py`](train.py) | Contains the main function `train` that trains the network |
 | [`test_backprop.py`](test_backprop.py) | tests backprogation function against finite difference method |
-| [`test_network.py`](test_network.py) | tests the network on skylearn datasets |
+| [`test_network.py`](test_network.py) | tests the network on scikit-learn datasets |
 
 ## Usage
 
