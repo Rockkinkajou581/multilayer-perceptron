@@ -2,7 +2,7 @@ import numpy as np
 from activations import ReLu, ReLu_grad, softmax
 from losses import categorical_cross_entropy
 
-class NueralNetwork:
+class NeuralNetwork:
     #layer sizes of the form [720, 350, ... ] representing input dimensions and output dimensions for each layer
     def __init__(self, layer_sizes, batch_size):
         self.batch_size = batch_size

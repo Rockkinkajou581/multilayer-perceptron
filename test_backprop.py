@@ -1,7 +1,7 @@
 import numpy as np
 import pytest
 
-from network import NueralNetwork
+from network import NeuralNetwork
 from losses import categorical_cross_entropy
 
 
@@ -94,7 +94,7 @@ def small_network_and_data():
     # tiny network: small enough that checking every single parameter is fast
     layer_sizes = [4, 5, 3]  # 4 input features, 5 hidden units, 3 classes
     batch_size = 6
-    net = NueralNetwork(layer_sizes, batch_size)
+    net = NeuralNetwork(layer_sizes, batch_size)
 
     X = np.random.randn(batch_size, layer_sizes[0])
 
